@@ -33,8 +33,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PULL_REQUEST_UPDATE: "True"
-          PULL_REQUEST_BRANCH: "deploy"
-          PULL_REQUEST_TITLE: "This is an AUTO PR; generated because you're lazy"
-          PULL_REQUEST_BODY: "The Justice league has raised this PR on your behalf"
+          PULL_REQUEST_BRANCH: "main"
+          PULL_REQUEST_TITLE: "This is an AUTO PR;"
+          PULL_REQUEST_BODY: "The Justice league has raised this PR, please review it."
           PULL_REQUEST_ASSIGNEE: "theendless22"
           PULL_REQUEST_LABEL: "Review me!"
